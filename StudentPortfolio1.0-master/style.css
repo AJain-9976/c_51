@@ -1,0 +1,44 @@
+h1 {
+    color: #ff7b00;
+    font-size: 16px;
+    font-family: monospace;
+    margin-left:50px;
+    padding:20px
+}
+
+*{
+    border: dotted;
+    border-top-color:steelblue;
+} 
+body{
+    background-color: seagreen;
+    background-image:url('wallpaper.jpeg')
+}
+.header{
+    background-color: rgba(0, 93, 233, 0.705);
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+    color:seashell
+    
+}
